@@ -18,12 +18,12 @@ export class AppComponent implements OnInit {
   signatureEndpoint = '';
   apiKey = 'E5MMw61eTMGB4ybLHICeSw';
   secretKey = '8LcDvQIWvAME7avS5uV09MtVeF3hjELqE0LN';
-  meetingNumber = 72316337415;
+  meetingNumber = 75786013700;
   role = 1;
   leaveUrl = 'http://localhost:4200';
   userName = 'Luis Prueba';
   userEmail = '';
-  passWord = '5f45e60058';
+  passWord = 'MmZwMzlZVUJEMks2UGZZd3YrYmxaUT09';
   signature = '';
 
   constructor(public httpClient: HttpClient, @Inject(DOCUMENT) document) {
