@@ -36,10 +36,10 @@ export class AppComponent implements OnInit {
 
   getSignature() {
     this.signature = ZoomMtg.generateSignature({
-      meetingNumber: this.meetingNumber,
+      meetingNumber: this.meetingNumber.toString(),
       apiKey: this.apiKey,
       apiSecret: this.secretKey,
-      role: this.role,
+      role: this.role.toString(),
       success: function(res) {
         console.log(res.result);
       }

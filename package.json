@@ -28,6 +28,7 @@
     "@types/node": "^12.11.1",
     "@zoomus/websdk": "^1.8.6",
     "express": "^4.17.1",
+    "jquery": "^3.5.1",
     "rxjs": "~6.6.3",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
